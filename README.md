@@ -30,11 +30,11 @@ Este proyecto es una Pokédex interactiva desarrollada en colaboración con **go
    git clone <URL_DEL_REPO>
    cd ai-pokemon
 2. **Instalar dependencias:**
-   ''sh
+   ```sh
    npm install
 3. Configura tu clave de API de Gemini:
   - Obtén una clave en Google AI Studio.
   - Coloca tu clave en el archivo correspondiente donde se realiza la llamada a la API.
 4. Inicia la aplicación:
-  ''sh
+  ```sh
   npm run dev
