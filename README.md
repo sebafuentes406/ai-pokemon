@@ -35,6 +35,6 @@ Este proyecto es una Pokédex interactiva desarrollada en colaboración con **go
 3. Configura tu clave de API de Gemini:
   - Obtén una clave en Google AI Studio.
   - Coloca tu clave en el archivo correspondiente donde se realiza la llamada a la API.
-4. Inicia la aplicación:
+4. **Inicia la aplicación:**
   ```sh
   npm run dev
