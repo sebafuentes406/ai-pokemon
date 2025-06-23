@@ -1,12 +1,40 @@
-# React + Vite
+# AI Pokémon
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una Pokédex interactiva desarrollada en colaboración con **gonzaloavilacartes**. Su objetivo es recopilar datos de la [PokeAPI](https://pokeapi.co/) y permitir a los usuarios explorar información de Pokémon, así como interactuar con asistentes potenciados por inteligencia artificial.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Pokédex completa:** Consulta y busca Pokémon usando datos obtenidos dinámicamente desde la PokeAPI.
+- **Chat con IA:** Conversa con cualquier Pokémon gracias a la integración con modelos de lenguaje (Gemini).
+- **Sistema de favoritos:** Marca tus Pokémon preferidos y guarda tus elecciones localmente.
+- **Interfaz moderna:** Construida con React, React Router y Bootstrap para una experiencia fluida y responsiva.
 
-## Expanding the ESLint configuration
+## ¿Cómo funciona?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Recopilación de datos:** La aplicación obtiene la lista y detalles de los Pokémon directamente desde la PokeAPI, asegurando información actualizada y precisa.
+- **Asistente con IA:** Al seleccionar un Pokémon, puedes iniciar un chat donde la IA responde como si fuera ese Pokémon, utilizando modelos avanzados de lenguaje natural.
+
+## Tecnologías utilizadas
+
+- [React](https://react.dev/)
+- [React Router](https://reactrouter.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Vite](https://vitejs.dev/)
+- [PokeAPI](https://pokeapi.co/)
+- [Google Gemini API](https://aistudio.google.com/app/apikey)
+
+## Instalación y uso
+
+1. **Clona el repositorio:**
+   ```sh
+   git clone <URL_DEL_REPO>
+   cd ai-pokemon
+2. **Instalar dependencias:**
+   ''sh
+   npm install
+3. Configura tu clave de API de Gemini:
+  - Obtén una clave en Google AI Studio.
+  - Coloca tu clave en el archivo correspondiente donde se realiza la llamada a la API.
+4. Inicia la aplicación:
+  ''sh
+  npm run dev
